@@ -11,9 +11,9 @@
   [dog-photo-share](https://github.com/cornwalljeremy/dog-photo-share)
 
   ### About:
-  The is a Photo sharing app. It Is built in React and is hosted on AWS using Amplify. Users can post photos of their dogs. The pictures are stored in an S3 bucket. It uses node to organize the information in the api call to and from the bucket. In Amplify I am using a lambda function. I have setup cloudwatch to monitor the site as well. Lambda automaticallly runs X-ray as well. ### Credits:
+  The is a Photo sharing app. It Is built in React and is hosted on AWS using Amplify. Users can post photos of their dogs. The pictures are stored in an S3 bucket. It uses node to organize the information in the api call to and from the bucket. In Amplify I am using a lambda function. I have setup cloudwatch to monitor the site as well. Lambda automatically runs X-ray as well.
 
-
+### Credits
 
 Made by: 
   [Jeremy Cornwall](cornwall.jeremy@gmail.com)
@@ -28,3 +28,4 @@ Made by:
 ## License: 
   ![Badge](https://img.shields.io/badge/License-BATSignal-red)
 
+## Screenshots arein teh screenshot folder in teh main branch
