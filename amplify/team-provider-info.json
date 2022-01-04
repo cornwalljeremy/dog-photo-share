@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dogphotoshare-dev-191550-authRole",
+      "UnauthRoleArn": "arn:aws:iam::320811592973:role/amplify-dogphotoshare-dev-191550-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::320811592973:role/amplify-dogphotoshare-dev-191550-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dogphotoshare-dev-191550-deployment",
+      "UnauthRoleName": "amplify-dogphotoshare-dev-191550-unauthRole",
+      "StackName": "amplify-dogphotoshare-dev-191550",
+      "StackId": "arn:aws:cloudformation:us-east-2:320811592973:stack/amplify-dogphotoshare-dev-191550/3ec16040-6d04-11ec-b181-0a7c82a51ada",
+      "AmplifyAppId": "d2o6e44aklwsmn"
+    },
+    "categories": {
+      "auth": {
+        "dogphotoshare45da0b2d": {},
+        "true": {}
+      }
+    }
+  }
+}
