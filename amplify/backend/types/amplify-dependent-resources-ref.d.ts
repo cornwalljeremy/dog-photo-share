@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
     "auth": {
-        "dogphotoshare45da0b2d": {
+        "dogphotoshare552f0c73": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
@@ -11,9 +11,16 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "storage": {
-        "dogphoto": {
+        "dogphotoshare": {
             "BucketName": "string",
             "Region": "string"
+        }
+    },
+    "analytics": {
+        "dogphotoshare": {
+            "Region": "string",
+            "Id": "string",
+            "appName": "string"
         }
     }
 }

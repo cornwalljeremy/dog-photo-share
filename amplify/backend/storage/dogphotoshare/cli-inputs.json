@@ -1,7 +1,7 @@
 {
-  "resourceName": "dogphoto",
-  "policyUUID": "de5777f7",
-  "bucketName": "dogphotoshare989f185b5cf64e51aa607f579b021bf7",
+  "resourceName": "dogphotoshare",
+  "policyUUID": "c7d83bf5",
+  "bucketName": "dogphotoshare01478a89a7884303bb3b96f60bb706fb",
   "storageAccess": "authAndGuest",
   "guestAccess": [
     "CREATE_AND_UPDATE",

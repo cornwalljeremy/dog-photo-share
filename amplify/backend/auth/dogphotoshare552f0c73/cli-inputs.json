@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "dogphotoshare45da0b2d_identitypool_45da0b2d",
+    "identityPoolName": "dogphotoshare552f0c73_identitypool_552f0c73",
     "allowUnauthenticatedIdentities": true,
-    "resourceNameTruncated": "dogpho45da0b2d",
-    "userPoolName": "dogphotoshare45da0b2d_userpool_45da0b2d",
+    "resourceNameTruncated": "dogpho552f0c73",
+    "userPoolName": "dogphotoshare552f0c73_userpool_552f0c73",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,10 +31,10 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "dogpho45da0b2d_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "dogpho552f0c73_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "45da0b2d",
-    "resourceName": "dogphotoshare45da0b2d",
+    "sharedId": "552f0c73",
+    "resourceName": "dogphotoshare552f0c73",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "userPoolGroupList": [],

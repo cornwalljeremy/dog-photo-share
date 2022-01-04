@@ -1,6 +1,6 @@
 {
   "auth": {
-    "dogphotoshare45da0b2d": {
+    "dogphotoshare552f0c73": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -26,10 +26,23 @@
     }
   },
   "storage": {
-    "dogphoto": {
+    "dogphotoshare": {
       "service": "S3",
       "providerPlugin": "awscloudformation",
       "dependsOn": []
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
+    }
+  },
+  "analytics": {
+    "dogphotoshare": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
     }
   }
 }
