@@ -27,8 +27,8 @@ export default function App() {
     fetchImages();
   }
   return (
-    <div>
-      <h1>Storage Example</h1>
+    <div className="App">
+      <h1>Share your puppy photos!</h1>
       <input type='file' onChange={onChange} />
       {images.map((image) => (
         <img
