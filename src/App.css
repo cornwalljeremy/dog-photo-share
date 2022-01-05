@@ -2,13 +2,59 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-body {
+:root {
+  --primary: #8c54ff;
+  --secondary: #f3a847;
+  --tertiary: #b12704;
+  --light: #fafafa;
+  --dark: #725252;
+  --darker: #111111;
+  --header: #07123a;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+}
+
+/* body {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+} */
+
+body {
+  min-height: 100%;
+  margin: 0 auto -50px;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  /* background: var(--dark); */
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: var(--light);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--header);
+}
+.navActive {
+  color: var(--secondary);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20vh;
+  background-color: var(--header);
 }
 
 .App {
@@ -17,11 +63,20 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.pictures {
+  width: 500px;
+  height: auto;
+  margin: 5px;
+  
+  border: 6px black;
+}
+
+
 
 input {
-  width: 300px;
+  /* width: 300px; */
   height: 50px;
-  margin: 5px;
+  margin: 20px;
   border: 3px;
   font-size: 30px;
   cursor: pointer;
