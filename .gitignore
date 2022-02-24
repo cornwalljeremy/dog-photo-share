@@ -4,6 +4,7 @@ screenshots
 /node_modules
 /.pnp
 .pnp.js
+.notes.md
 
 # testing
 /coverage
